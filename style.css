@@ -1,0 +1,96 @@
+*{
+    background:rgb(198, 130, 138);
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    overflow-y: hidden;
+}
+.logo{
+    padding-top: 25px;
+    margin-left: 10px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+}
+.text-area {
+    height: 400px;
+    border: none;
+    color: #0A3871;
+    margin-top: 30px;
+    padding: 2px;
+    text-transform: lowercase;
+}
+::placeholder { color: #0A3871; }
+  .text-area:focus {
+      outline: none;
+    }
+.mensaje{
+    height: 470px;
+    background: white;
+    background-image: url("imagenes/sholmes.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 30px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 0px;
+    padding-left: 15px;
+    position: fixed;
+}
+.mensaje:focus {
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+.btn-desencriptar {
+    background: rgb(255, 186, 181);
+    border: 1px solid rgb(130, 98, 74);
+    border-radius: 24px;
+    color: rgb(130, 98, 74);
+    cursor: pointer;
+    height: 60px;
+    margin-left: 30px;
+    width: 328px;
+}
+.btn-encriptar {
+    background-color: rgb(130, 98, 74);
+    border: 1px solid rgb(130, 98, 74);
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    width: 328px;
+}
+.copiar {
+    background-color: #52504d;
+    border: 1px solid #52504d;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 60px;
+    margin-left: 120px;
+    margin-top: 480px;
+    position: absolute;
+    width: 328px;
+}
+.informacion {
+    color: #5c5959;
+    font-size:20px;
+}
+footer {
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 10px;
+}
+.copyright {
+    color: #FFFFFF;
+    font-size: 15px;
+    background: none;
+}
